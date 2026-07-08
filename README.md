@@ -1,14 +1,14 @@
 # My Python & IoT Project Sandbox 
 
-Welcome! This repository is a collection of my favorite hands-on projects, built during my self-directed gap year[cite: 1]. It’s a mix of computer vision experiments, automated hardware setups, and a few handy Python utilities I wrote to solve practical problems[cite: 1]. 
+Welcome! This repository is a collection of my favorite hands-on projects, built during my self-directed gap year. It’s a mix of computer vision experiments, automated hardware setups, and a few handy Python utilities I wrote to solve practical problems. 
 
 I love taking an idea, figuring out how to write the logic for it, and—most importantly—spending hours debugging it until it actually works flawlessly[cite: 1]. 
 
 ## Tech I Use
 
-*   **Languages:** Python 3.x, C/C++ (for Arduino automation)[cite: 1]
-*   **Libraries:** OpenCV, MediaPipe (for tracking spatial landmarks), PyFirmata[cite: 1]
-*   **Hardware:** Arduino Uno, PIR motion sensors, servo motors, and LCD screens[cite: 1]
+*   **Languages:** Python 3.x, C/C++ (for Arduino automation)
+*   **Libraries:** OpenCV, MediaPipe (for tracking spatial landmarks), PyFirmata
+*   **Hardware:** Arduino Uno, PIR motion sensors, servo motors, and LCD screens
 
 ---
 
