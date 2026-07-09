@@ -1,4 +1,3 @@
-#hand gesture led controller
 
 import cv2
 import mediapipe as mp
