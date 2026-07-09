@@ -48,6 +48,6 @@ while True:
         ball_y = 50  
         ball_x = np.random.randint(50, 550)  
 
-    cv2.imshow("Catch the Ball", image)
+    cv2.imshow("Dodge the Ball", image)
 
 cv2.destroyAllWindows()
