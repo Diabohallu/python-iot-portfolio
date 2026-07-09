@@ -50,7 +50,7 @@ while True:
 
     cv2.imshow("Catch the Ball", image)
 
-    key = cv2.waitKey(30) & 0xFF
+    key = cv2.waitKey(1) & 0xFF
     if key == ord('q'):
         break
 
