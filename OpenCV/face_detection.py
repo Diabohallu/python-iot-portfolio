@@ -1,4 +1,3 @@
-#face detection 
 
 import cv2
 
