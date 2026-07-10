@@ -35,6 +35,16 @@ I love taking an idea, figuring out how to write the logic for it, and most impo
 
 If you want to play around with the vision scripts, you'll need a webcam and a few dependencies:
 
-1. Clone the repository:
-   ```bash
-   [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
+## Getting Started
+
+To explore or execute the computer vision environments and utilities locally, ensure your system has a functional webcam interface and run the following commands:
+
+```bash
+# Clone the repository
+git clone [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
+
+# Navigate into the project directory
+cd python-iot-portfolio
+
+# Install core dependencies
+pip install opencv-python mediapipe numpy
