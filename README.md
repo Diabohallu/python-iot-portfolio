@@ -1,50 +1,48 @@
-# My Python & IoT Project Sandbox 
+# My Python, AI & IoT Code Space 
 
-Welcome! This repository is a collection of my favorite hands on projects, built during my self directed gap year. It’s a mix of computer vision experiments, automated hardware setups, and a few handy Python utilities I wrote to solve practical problems. 
+Welcome! This repository is a collection of my favorite hands-on projects built from scratch during my self-directed gap year. It’s a mix of real-time computer vision experiments, smart hardware automation setups, and custom Python utilities written to solve practical problems and handle data cleanly.
 
-I love taking an idea, figuring out how to write the logic for it, and most importantly, spending hours debugging it until it actually works flawlessly. 
-
-## Tech I Use
-
-*   **Languages:** Python 3.x, C/C++ (for Arduino automation)
-*   **Libraries:** OpenCV, MediaPipe, Numpy, PyFirmata
-*   **Hardware:** Arduino Uno, PIR motion sensors, Servo motors, and LCD screens
+I love taking an exciting idea, figuring out the programmatic logic behind it, and spending hours debugging until it works flawlessly.
 
 ---
 
-## Featured Projects 
+## Tech Stack I Use 
 
-### 1. Computer Vision & Gesture Control System
-*   **What it is:** A real time gesture recognition program that lets me control software actions and trigger hardware automation using nothing but hand gestures.
-*   **The cool part:** It tracks exact hand landmarks using MediaPipe and translates coordinates into application commands. I spent a ton of time fine tuning the responsiveness so it doesn’t accidentally trigger when you just shift your hand.
-*   **Core Files:** `pinch_controlled_motor_system.py`, `virtual_button.py`
-
-### 2. IoT Automation Hub
-*   **What it is:** Hardware automation projects controlled via Arduino. I hooked up various sensors (like motion, sound and smoke detectors) to execute live responses.
-*   **What it does:** It maps live data streams directly to physical hardware actions, like rotating a servo motor or flashing an alert on an LCD screen when a threshold is breached. 
-*   **Core Folders:** Look inside the `/Arduino` directory for specific sensor setups.
-
-### 3. Python Data Management Utilities
-*   **What it is:** A set of clean, object-oriented command-line applications to store, search, and update data efficiently.
-*   **What it does:** Instead of just basic scripts, I focused heavily on building solid input validation and handling errors gracefully so the programs don't crash when you give them unexpected inputs.
-*   **Core Files:** `expense_tracker.py`, `library.py`
+* **Languages:** Python 3.x, C/C++ (for Arduino automation)
+* **Libraries:** OpenCV, MediaPipe, NumPy, PyFirmata
+* **Hardware & Components:** Arduino Uno, PIR motion sensors, Servo motors, and I2C LCD screens
 
 ---
 
-## Getting Started 
+## Core Project Modules 
 
-If you want to play around with the vision scripts, you'll need a webcam and a few dependencies:
+### 1. Computer Vision & Gesture Control (OpenCV + MediaPipe)
+* **What it is:** Real-time visual tracking programs that let me control software actions and trigger hardware automation using nothing but hand gestures.
+* **The cool part:** It maps live frames from a webcam, tracks exact hand landmarks, and translates those coordinates into instant commands. I spent a lot of time fine-tuning the coordinates so it doesn't glitch or trigger accidentally when you shift your hand.
+* **Key Files:** `pinch_controlled_motor_system.py`, `virtual_button.py`, `face_detection.py`
 
-## Getting Started
+### 2. Smart IoT Automation Hub (Arduino Labs)
+* **What it is:** Interactive hardware projects controlled via microcontrollers. I hooked up various sensors to read real-time data and execute physical responses.
+* **The cool part:** It maps live data streams (like motion, sound, or smoke) directly to real-world actions—like automatically rotating a servo motor to open a door or flashing an alert message on an LCD screen when a sensor threshold is crossed.
+* **Key Folder:** Check out the `/Arduino` directory for the full collection of sensor scripts.
 
-To explore or execute the computer vision environments and utilities locally, ensure your system has a functional webcam interface and run the following commands:
+### 3. Clean Python Utilities
+* **What it is:** Simple, object-oriented command-line applications built to store, search, and manage data efficiently.
+* **The cool part:** Instead of just writing basic scripts, I focused heavily on building solid input validation and graceful error handling. If a user enters unexpected or chaotic inputs, the programs handle them safely instead of crashing.
+* **Key Files:** `expense_tracker.py`, `library.py`
+
+---
+
+## Getting Started 🏁
+
+Want to run the vision scripts or utilities locally? Make sure you have a working webcam and run these commands in your terminal:
 
 ```bash
 # Clone the repository
 git clone [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
 
-# Navigate into the project directory
+# Move into the project directory
 cd python-iot-portfolio
 
-# Install core dependencies
+# Install the required Python libraries
 pip install opencv-python mediapipe numpy
