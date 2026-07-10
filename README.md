@@ -1,194 +1,52 @@
-# Python • AI • Computer Vision • IoT Portfolio
+# My Python, AI & IoT Project Space 
 
-> A collection of hands-on projects exploring Computer Vision, Artificial Intelligence, IoT, and Python programming.
+Hey there! This repository is a personal sandbox containing hands on projects I built from scratch during my self directed gap year. 
 
-This repository contains projects I built during my self-directed gap year while learning software development, computer vision, and embedded systems. Each project was designed to strengthen my understanding of programming through practical applications and real-world problem solving.
+Instead of just following tutorials, I wanted to learn by actually building software and exploring how code interacts with hardware. Inside, you'll find real time computer vision applications, smart hardware automation setups, and command line Python utilities written to practice software fundamentals.
 
----
-
-## Repository Structure
-
-```
-📂 Arduino
-├── Analog Sound Sensor
-├── Fire Sensor
-├── PIR Motion Sensor
-├── Servo Motor
-├── Smoke Sensor
-└── Soil Moisture Sensor
-
-📂 OpenCV
-├── Face Detection
-├── Virtual Button
-├── Hand Gesture LED Controller
-├── Finger Detection Motor Controller
-├── Pinch Controlled Motor System
-├── Smart Door Lock
-├── Catch the Ball
-├── WASD Movement
-├── Drawing Applications
-└── More Computer Vision Projects
-
-📂 Python
-├── ATM System
-├── Expense Tracker
-├── Student Record Management System
-└── Library Management System
-```
+I love taking an idea, figuring out the programming logic behind it and working through the debugging process until everything runs smoothly.
 
 ---
 
-# Tech Stack
+## Tech Stack
 
-### Languages
-
-- Python 3
-- C/C++ (Arduino)
-
-### Computer Vision
-
-- OpenCV
-- MediaPipe
-- NumPy
-
-### IoT & Hardware
-
-- Arduino Uno
-- Servo Motors
-- PIR Motion Sensors
-- Sound Sensors
-- Smoke Sensors
-- Soil Moisture Sensors
-- LCD Displays
-
-### Development Tools
-
-- Git
-- GitHub
-- VS Code
+* **Languages:** Python 3, C/C++ (Arduino)
+* **AI & Vision:** OpenCV, MediaPipe, NumPy
+* **Hardware & Sensors:** Arduino Uno, Servo Motors, PIR Motion, Sound, Smoke, Soil Moisture Sensors, and I2C LCD Displays
+* **Tools:** VS Code, Git, GitHub
 
 ---
 
-# Featured Projects
+## Project Breakdown
 
-## Computer Vision & AI
+### 1. Computer Vision & Gesture Control (OpenCV + MediaPipe)
+These projects use a standard webcam to capture live video frames, track coordinates for hand landmarks or faces, and translate those movements into instant software commands or hardware actions.
+* **Key Projects:** `Pinch Controlled Motor System`, `Hand Gesture LED Controller`, `Virtual Button`, `Face Detection`, and a `Smart Door Lock`.
+* **Technical Implementation:** Utilizes a pipeline processing video streams into frame matrices, tracking 2D coordinate hand landmarks via MediaPipe, and calculating spatial transformations to isolate dynamic triggers.
+* **Experimental Scripts:** A couple of fun interactive tests including a `Catch the Ball` game, a drawing canvas application, and a WASD motion controller.
 
-Real-time applications built using OpenCV and MediaPipe.
+### 2. Smart IoT Automation Hub (Arduino Labs)
+Interactive hardware setups where I connected different sensors to microcontrollers. This allowed my code to read live data from the physical environment and trigger real-world mechanical responses.
+* **Key Projects:** A motion activated alarm system, fire and smoke alerts, automatic soil moisture monitoring, and precise servo motor controls.
+*  **Technical Implementation:** Architected circuit blueprints utilizing digital and analog sensor state tracking (Motion, Sound, Smoke, Moisture) integrated via C/C++ scripts to execute automated hardware operations (Servo movement, real time LCD state outputs).
 
-### Projects include
-
--  Hand Gesture LED Controller
--  Pinch Controlled Motor System
--  Virtual Button
--  Face Detection
--  Smart Door Lock
--  Catch the Ball Game
--  Interactive Drawing Canvas
--  WASD Motion Control
-
-These projects use live webcam input to detect faces, hands, and gestures, translating them into interactive software or hardware actions.
-
----
-
-## Arduino & IoT
-
-Practical hardware projects demonstrating sensor integration and automation.
-
-### Projects include
-
-- Motion Detection Alarm
-- Fire Detection System
-- Smoke Detection
-- Soil Moisture Monitoring
-- Sound Detection
-- Servo Motor Control
-
-These projects combine Arduino programming with electronic sensors to monitor environmental data and trigger physical responses.
+### 3. Clean Python Utilities
+Command line applications built around object oriented concepts to practice building clean, reliable software.
+* **Key Projects:** An `ATM System`, `Library Management System`, `Student Record Management`, and an `Expense Tracker`.
+* **Technical Focus:** I focused heavily on implementing solid input validation and error handling so the programs stay stable and handle unexpected user inputs without crashing.
 
 ---
 
-## Python Applications
+## Getting Started
 
-Command line applications focused on problem solving and software engineering fundamentals.
-
-### Projects include
-
-- ATM Management System
-- Library Management System
-- Student Record Management
-- Expense Tracker
-
-These projects emphasize object-oriented programming, input validation, file handling, and clean code practices.
-
----
-
-# Skills Demonstrated
-
-- Object-Oriented Programming
-- Computer Vision
-- Hand Tracking
-- Face Detection
-- Hardware Automation
-- Sensor Integration
-- Python Development
-- Embedded Programming
-- Problem Solving
-- Debugging
-- Data Validation
-- Software Design
-
----
-
-# Getting Started
-
-Clone the repository
+To run the vision scripts or Python utilities locally, make sure you have a working webcam connected and run these commands in your terminal:
 
 ```bash
-git clone https://github.com/Diabohallu/python-iot-portfolio.git
-```
+# Clone the repository
+git clone [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
 
-Navigate into the project
-
-```bash
+# Move into the project folder
 cd python-iot-portfolio
-```
 
-Install the required Python libraries
-
-```bash
+# Install the required Python libraries
 pip install opencv-python mediapipe numpy pyfirmata
-```
-
-Run any Python project
-
-```bash
-python project_name.py
-```
-
----
-
-# Current Learning Goals
-
-I am continuously expanding this repository by exploring
-
-- Machine Learning
-- Artificial Intelligence
-- Robotics
-- Raspberry Pi
-- Deep Learning
-- Embedded Systems
-- Software Engineering Best Practices
-
----
-
-# Why This Repository?
-
-This portfolio represents my journey of learning through building.
-
-Rather than following tutorials alone, I enjoy turning ideas into working applications whether that's controlling hardware with hand gestures, creating computer vision tools, or developing Python applications that solve practical problems.
-
-Every project has helped me strengthen my programming, debugging, and problem solving skills while encouraging me to explore new technologies.
-
----
-
-If you found this repository interesting, consider giving it a star!
