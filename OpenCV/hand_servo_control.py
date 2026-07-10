@@ -1,4 +1,3 @@
-#Servo
 
 import cv2
 import mediapipe as mp
@@ -16,7 +15,7 @@ try:
     arduino_connected = True
     print("Arduino connected successfully.")
 except Exception as e:
-    print("⚠ Arduino not connected!", e)
+    print("Arduino not connected!", e)
     arduino_connected = False
     pin9 = None
 
@@ -56,7 +55,7 @@ mp_hands = mp.solutions.hands
 cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
-    print("⚠ Camera not detected!")
+    print("Camera not detected!")
     exit()
 
 with mp_hands.Hands(
@@ -68,7 +67,7 @@ with mp_hands.Hands(
 
         success, image = cap.read()
         if not success:
-            print("⚠ Frame not received from camera.")
+            print("Frame not received from camera.")
             continue
 
         image = cv2.flip(image, 1)
