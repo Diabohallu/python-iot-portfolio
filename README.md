@@ -37,4 +37,4 @@ If you want to play around with the vision scripts, you'll need a webcam and a f
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
+   [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
