@@ -1,57 +1,194 @@
-# My Python, AI & IoT Code Space 
+# Python • AI • Computer Vision • IoT Portfolio
 
-Welcome! This repository is a collection of my favorite hands on projects built from scratch during my self directed gap year. It’s a mix of real time computer vision experiments, smart hardware automation setups, and custom Python utilities written to solve practical problems and handle data cleanly.
+> A collection of hands-on projects exploring Computer Vision, Artificial Intelligence, IoT, and Python programming.
 
-I love taking an exciting idea, figuring out the programmatic logic behind it, and spending hours debugging until it works flawlessly.
-
----
-
-## Tech Stack I Use 
-
-* **Languages:** Python 3.x, C/C++ (for Arduino automation)
-* **Libraries:** OpenCV, MediaPipe, NumPy, PyFirmata
-* **Hardware & Components:** Arduino Uno, PIR motion sensors, Servo motors, and I2C LCD screens
+This repository contains projects I built during my self-directed gap year while learning software development, computer vision, and embedded systems. Each project was designed to strengthen my understanding of programming through practical applications and real-world problem solving.
 
 ---
 
-## Core Project Modules 
+## Repository Structure
 
-### 1. Computer Vision & Gesture Control (OpenCV + MediaPipe)
+```
+📂 Arduino
+├── Analog Sound Sensor
+├── Fire Sensor
+├── PIR Motion Sensor
+├── Servo Motor
+├── Smoke Sensor
+└── Soil Moisture Sensor
 
-* **What it is:** Real-time visual tracking programs that let me control software actions and trigger hardware automation using nothing but hand gestures.
-  
-* **What it does:** It maps live frames from a webcam, tracks exact hand landmarks, and translates those coordinates into instant commands. I spent a lot of time fine-tuning the coordinates so it doesn't glitch or trigger accidentally when you shift your hand.
-  
-* **Key Files:** `pinch_controlled_motor_system.py`, `virtual_button.py`, `face_detection.py`
+📂 OpenCV
+├── Face Detection
+├── Virtual Button
+├── Hand Gesture LED Controller
+├── Finger Detection Motor Controller
+├── Pinch Controlled Motor System
+├── Smart Door Lock
+├── Catch the Ball
+├── WASD Movement
+├── Drawing Applications
+└── More Computer Vision Projects
 
-### 2. Smart IoT Automation Hub (Arduino IDE)
-
-* **What it is:** Interactive hardware projects controlled via microcontrollers. I hooked up various sensors to read real-time data and execute physical responses.
-  
-* **What it does:** It maps live data streams (like motion, sound, or smoke) directly to real-world actions—like automatically rotating a servo motor to open a door or flashing an alert message on an LCD screen when a sensor threshold is crossed.
-  
-* **Key Folder:** Check out the `/Arduino` directory for the full collection of sensor scripts.
-
-### 3. Clean Python Utilities
-
-* **What it is:** Simple, object-oriented command-line applications built to store, search, and manage data efficiently.
-  
-* **What it does:** Instead of just writing basic scripts, I focused heavily on building solid input validation and graceful error handling. If a user enters unexpected or chaotic inputs, the programs handle them safely instead of crashing.
-  
-* **Key Files:** `expense_tracker.py`, `library.py`
+📂 Python
+├── ATM System
+├── Expense Tracker
+├── Student Record Management System
+└── Library Management System
+```
 
 ---
 
-## Getting Started 
+# Tech Stack
 
-Want to run the vision scripts or utilities locally? Make sure you have a working webcam and run these commands in your terminal:
+### Languages
+
+- Python 3
+- C/C++ (Arduino)
+
+### Computer Vision
+
+- OpenCV
+- MediaPipe
+- NumPy
+
+### IoT & Hardware
+
+- Arduino Uno
+- Servo Motors
+- PIR Motion Sensors
+- Sound Sensors
+- Smoke Sensors
+- Soil Moisture Sensors
+- LCD Displays
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+
+---
+
+# Featured Projects
+
+## Computer Vision & AI
+
+Real-time applications built using OpenCV and MediaPipe.
+
+### Projects include
+
+-  Hand Gesture LED Controller
+-  Pinch Controlled Motor System
+-  Virtual Button
+-  Face Detection
+-  Smart Door Lock
+-  Catch the Ball Game
+-  Interactive Drawing Canvas
+-  WASD Motion Control
+
+These projects use live webcam input to detect faces, hands, and gestures, translating them into interactive software or hardware actions.
+
+---
+
+## Arduino & IoT
+
+Practical hardware projects demonstrating sensor integration and automation.
+
+### Projects include
+
+- Motion Detection Alarm
+- Fire Detection System
+- Smoke Detection
+- Soil Moisture Monitoring
+- Sound Detection
+- Servo Motor Control
+
+These projects combine Arduino programming with electronic sensors to monitor environmental data and trigger physical responses.
+
+---
+
+## Python Applications
+
+Command line applications focused on problem solving and software engineering fundamentals.
+
+### Projects include
+
+- ATM Management System
+- Library Management System
+- Student Record Management
+- Expense Tracker
+
+These projects emphasize object-oriented programming, input validation, file handling, and clean code practices.
+
+---
+
+# Skills Demonstrated
+
+- Object-Oriented Programming
+- Computer Vision
+- Hand Tracking
+- Face Detection
+- Hardware Automation
+- Sensor Integration
+- Python Development
+- Embedded Programming
+- Problem Solving
+- Debugging
+- Data Validation
+- Software Design
+
+---
+
+# Getting Started
+
+Clone the repository
 
 ```bash
-# Clone the repository
-git clone [https://github.com/Diabohallu/python-iot-portfolio.git](https://github.com/Diabohallu/python-iot-portfolio.git)
+git clone https://github.com/Diabohallu/python-iot-portfolio.git
+```
 
-# Move into the project directory
+Navigate into the project
+
+```bash
 cd python-iot-portfolio
+```
 
-# Install the required Python libraries
-pip install opencv-python mediapipe numpy
+Install the required Python libraries
+
+```bash
+pip install opencv-python mediapipe numpy pyfirmata
+```
+
+Run any Python project
+
+```bash
+python project_name.py
+```
+
+---
+
+# Current Learning Goals
+
+I am continuously expanding this repository by exploring
+
+- Machine Learning
+- Artificial Intelligence
+- Robotics
+- Raspberry Pi
+- Deep Learning
+- Embedded Systems
+- Software Engineering Best Practices
+
+---
+
+# Why This Repository?
+
+This portfolio represents my journey of learning through building.
+
+Rather than following tutorials alone, I enjoy turning ideas into working applications whether that's controlling hardware with hand gestures, creating computer vision tools, or developing Python applications that solve practical problems.
+
+Every project has helped me strengthen my programming, debugging, and problem solving skills while encouraging me to explore new technologies.
+
+---
+
+If you found this repository interesting, consider giving it a star!
