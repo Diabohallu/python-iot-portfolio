@@ -1,5 +1,5 @@
 
-import atm2
+import atm_module
 
 print("\nWelcome to the ATM")
 print("You can do the following")
@@ -14,14 +14,14 @@ while True:
 
     if opt == "1":
         amount = float(input("How much amount would you like to deposit: "))
-        print(atm2.add_amount(amount))
+        print(atm_module.add_amount(amount))
 
     elif opt == "2":
-        print(atm2.account())
+        print(atm_module.account())
 
     elif opt == "3":
         amount = float(input("How much do you want to withdraw: "))
-        print(atm2.withdraw(amount))
+        print(atm_module.withdraw(amount))
 
     elif opt == "4":
         print("Goodbye\n")
