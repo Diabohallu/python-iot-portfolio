@@ -29,6 +29,7 @@ These projects use a standard webcam to capture live video frames, track coordin
 Interactive hardware setups where I connected different sensors to microcontrollers. This allowed my code to read live data from the physical environment and trigger real-world mechanical responses.
 * **Key Projects:** A motion activated alarm system, fire and smoke alerts, automatic soil moisture monitoring, and precise servo motor controls.
 *  **Technical Implementation:** Architected circuit blueprints utilizing digital and analog sensor state tracking (Motion, Sound, Smoke, Moisture) integrated via C/C++ scripts to execute automated hardware operations (Servo movement, real time LCD state outputs).
+*  **Core Hardware Workspaces:** Explore the `/Arduino` directory for sensor layouts, wiring logic, and firmware implementations.
 
 ### 3. Clean Python Utilities
 Command line applications built around object oriented concepts to practice building clean, reliable software.
