@@ -4,8 +4,8 @@
 LiquidCrystal_I2C lcd(0*21, 16, 2);
 int pir = 10;
 int led = 9;
-int alarm = 8; //Buzzer causes Alarm
-int emergency_lock = 7; //Servo motor turns automatic lock system (I don't know how to turn it around ¯\_(ツ)_/¯)
+int alarm = 8; 
+int emergency_lock = 7; 
 
 void setup() {
 
